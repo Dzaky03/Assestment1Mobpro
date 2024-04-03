@@ -9,91 +9,91 @@ object Constants {
         val que1 = Question(1,
             "what football club is this?",
             R.drawable.realmadrid,
-        "Chelsea",
-            "Real Madrid",
+        "Real Madrid",
+            "Chelsea",
             "Manchesther City", "Bayern Munchen",
-            2)
+            1)
 
 
 
         val que2 = Question(2,
-            "What country flag is this", R.drawable.chelsea,
+            "what football club is this?", R.drawable.atm,
             "Manchesther United",
             "Atletico Madrid",
             "Chelsea",
             "Arsenal",
-            3)
+            2)
 
 
         val que3 = Question(3,
-            "What country flag is this", R.drawable.france,
-            "Mexico",
-            "France",
-            "Africa",
-            "USA",
+            "what football club is this?", R.drawable.bvb,
+            "Al-Nassr",
+            "Dortmund",
+            "Al-Hilal",
+            "Juventus",
             2)
 
 
         val que4 = Question(4,
-            "What country flag is this", R.drawable.turkey,
-            "Kazakistan",
-            "Ukraine",
-            "Turkey",
-            "USA",
-            3)
-
-
-        val que5 = Question(5,
-            "What country flag is this", R.drawable.us,
-            "USA",
-            "Argentina",
-            "Armenia",
-            "South America",
-            1)
-
-
-        val que6 = Question(6,
-            "What country flag is this", R.drawable.uk,
-            "Australia",
-            "Argentina",
-            "UK",
-            "USA",
-            3)
-
-
-        val que7 = Question(7,
-            "What country flag is this", R.drawable.european,
-            "Scotland",
-            "European Union",
-            "Armenia",
-            "USA",
+            "what football club is this?", R.drawable.sevilla,
+            "Bayern Munchen",
+            "Sevilla",
+            "Juventus",
+            "PSG",
             2)
 
 
+        val que5 = Question(5,
+            "what football club is this?", R.drawable.barcelona,
+            "Liverpool",
+            "Barcelona",
+            "Ac Milan",
+            "PSG",
+            2)
+
+
+        val que6 = Question(6,
+            "what football club is this?", R.drawable.acm,
+            "Liverpool",
+            "PSG",
+            "Juventus",
+            "Ac Milan",
+            4)
+
+
+        val que7 = Question(7,
+            "what football club is this?", R.drawable.juve,
+            "Juventus",
+            "Ac Milan",
+            "Manchesther City",
+            "Manchesther United",
+            1)
+
+
         val que8 = Question(8,
-            "What country flag is this", R.drawable.germany,
-            "Netherlands",
-            "Spain",
-            "Belgium",
-            "Germany",
+            "what football club is this?", R.drawable.inter,
+            "Arsenal",
+            "PSG",
+            "liverpool",
+            "Inter Milan",
             4)
 
 
         val que9 = Question(9,
-            "What country flag is this", R.drawable.canada,
-            "Denmark",
-            "Argentina",
-            "Canada",
-            "USA",
+            "what football club is this?", R.drawable.rbt,
+            "Arsenal",
+            "PSG",
+            "Real Betis",
+            "Bayern Munchen",
             3)
 
 
         val que10 = Question(10,
-            "What country flag is this", R.drawable.india,
-            "India",
-            "Iran",
-            "Ireland",
-            "USA",
+            "what football club is this?", R.drawable.napoli,
+            "Napoli",
+            "Chelsea",
+            "Aston Villa",
+            "Newcastle United",
             1)
 
 
