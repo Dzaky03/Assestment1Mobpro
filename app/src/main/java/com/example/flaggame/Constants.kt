@@ -7,21 +7,21 @@ object Constants {
         val questionsList = ArrayList<Question>()
 
         val que1 = Question(1,
-            "What country flag is this?",
-            R.drawable.australia,
-        "Australia",
-            "Argentina",
-            "Armenia", "USA",
-            1)
+            "what football club is this?",
+            R.drawable.realmadrid,
+        "Chelsea",
+            "Real Madrid",
+            "Manchesther City", "Bayern Munchen",
+            2)
 
 
 
         val que2 = Question(2,
-            "What country flag is this", R.drawable.mexico,
-            "Australia",
-            "Argentina",
-            "Mexico",
-            "USA",
+            "What country flag is this", R.drawable.chelsea,
+            "Manchesther United",
+            "Atletico Madrid",
+            "Chelsea",
+            "Arsenal",
             3)
 
 
