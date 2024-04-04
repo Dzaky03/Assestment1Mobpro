@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Permainan Klub Sepak Bola</string>
+    <string name="hello_blank_fragment">Halo fragmen kosong</string>
+    <string name="tentang_persegi_panjang">Tentang Persegi Panjang</string>
+    <string name="copyright">Persegi panjang adalah bangun datar yang mempunyai 4 sisi yang masing-masing sisinya sama panjang, panjang dan lebarnya, serta mempunyai ukuran yang berbeda-beda.</string>
+    <string name="kembali">Kembali</string>
+    <string name="bagikan">Bagikan</string>
+    <string name="bagikan_template">Berat badan: %1$s kg\nTinggi Badan: %2$s cm\nJenis Kelamin: %3$s\nBMI: %4$.2f\n%5$s</string>
+</resources>

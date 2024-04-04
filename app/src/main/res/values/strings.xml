@@ -1,5 +1,10 @@
 <resources>
-    <string name="app_name">FlagGame</string>
+    <string name="app_name">Football Club Games</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="copyright">A rectangle is a flat shape that has 4 sides, each of which is the same length, has long and wide sides, which have different sizes.</string>
+    <string name="tentang_persegi_panjang">About Rectangles</string>
+    <string name="kembali">Back</string>
+    <string name="bagikan">Bagikan</string>
+    <string name="bagikan_template">Berat badan: %1$s kg\nTinggi Badan: %2$s cm\nJenis Kelamin: %3$s\nBMI: %4$.2f\n%5$s</string>
 </resources>
