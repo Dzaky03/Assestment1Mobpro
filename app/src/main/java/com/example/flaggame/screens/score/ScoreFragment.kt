@@ -1,5 +1,7 @@
 package com.example.flaggame.screens.score
 
+import android.content.Context
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import androidx.fragment.app.Fragment
@@ -16,7 +18,19 @@ import androidx.navigation.fragment.navArgs
 import com.example.flaggame.R
 import com.example.flaggame.databinding.FragmentScoreBinding
 
+private fun shareData(context: Context, message: String) {
+    val shareIntent = Intent(Intent.ACTION_SEND).apply {
+        type = "text/plain"
+        putExtra(Intent.EXTRA_TEXT, message)
+    }
+    if (shareIntent.resolveActivity(context.packageManager) != null) {
+        context.startActivity(shareIntent)
+    }
+
+}
+
 class ScoreFragment : Fragment() {
+
 
     lateinit var binding: FragmentScoreBinding
 
@@ -34,8 +48,6 @@ class ScoreFragment : Fragment() {
 
             view.findNavController().navigate(R.id.action_scoreFragment_to_titleFragment)
         }
-
-
 
         requireActivity().onBackPressedDispatcher.addCallback(viewLifecycleOwner) {
             // handle back event
@@ -58,3 +70,6 @@ class ScoreFragment : Fragment() {
 
 
 }
+
+
+
